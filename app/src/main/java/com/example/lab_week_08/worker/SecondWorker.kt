@@ -21,9 +21,11 @@ class SecondWorker(
             .putString(OUTPUT_DATA_ID, id)
             .build()
 
+
         //Return the output
         return Result.success(outputData)
     }
+
     companion object {
         const val INPUT_DATA_ID = "inId"
         const val OUTPUT_DATA_ID = "outId"
